@@ -15,3 +15,5 @@ const printPassTimes = function(times) {
     console.log(`Next pass at ${date} for ${i.duration} seconds`);
   }
 };
+
+module.exports = { printPassTimes };
